@@ -1,0 +1,165 @@
+/* Reset
+-------------------------------------------------- */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary{display:block}
+*, *:before, *:after{margin:0;padding:0;border:0;box-sizing:border-box}
+img{display:block;height:300px;width:auto;}
+sup, sub {vertical-align: baseline;position: relative;top: -0.4em;}
+sub {top: 0.4em; }
+
+
+/* Site
+--------------------------------------------------*/
+html{width:100%;height:100%;font-size:18pt;line-height:20pt; font-weight: bold;}
+body{display:none;width:100%;min-height:100%;background:#fff;color:#000;}
+
+
+/* Core
+-------------------------------------------------- */
+section, footer { display: -webkit-box; display: -ms-flexbox; display: flex; -ms-flex-flow: row wrap; flex-flow: row wrap; }
+section {width:100%}
+article{padding:5px}
+main{width:50%;height:100vh;padding:5px;float:left; position: relative;}
+main .scroll {padding:5px;padding-right:20px;padding-bottom:0;position: absolute;top: 0px;bottom: 0px;left: 0px;right: -15px;overflow-y: auto;}
+
+/* Headings
+-------------------------------------------------- */
+h1, h2, h3, h4{font-size:1em;line-height:1em;text-indent: 43px;text-decoration: underline;}
+header{width:100%;padding:0 5px}
+.col1 header h1{border:0}
+.col1 header h1 span{border-bottom:3px solid}
+
+.num{margin-right:5px;font-family:'work sans';font-size:36.9667px;position:relative;top:5px;display:inline-block;}
+
+
+#title {text-indent: 43px; text-transform: uppercase;}
+.pp{text-indent: 43px;}
+ul{
+  font-size: 0.7em; line-height: 1.2em;
+  margin-left: 43px;
+}
+
+/* legende
+-------------------------------------------------- */
+.bio article div{width:50%;float:left;font-size:.7em;line-height:1em}
+.bio article div:nth-child(odd){padding-right:5px}
+.bio article div:nth-child(even){padding-left:5px}
+.bio article div{padding-bottom:5px}
+.bio article div a{margin-bottom:16px;margin-bottom:16px;margin-bottom:16px;margin-bottom:16px;margin-bottom:1rem;float:left;width:100%;color:grey}
+.bio article div a:hover{color:black}
+.bio article div h3{text-transform:uppercase;-ms-font-feature-settings: "c2sc";-o-font-feature-settings: "c2sc";-webkit-font-feature-settings: "c2sc";font-feature-settings: "c2sc";}
+.bio article div p+p{text-indent:43.633px}
+
+/* Statement
+-------------------------------------------------- */
+.state p+p{text-indent:43.633px}
+.state article{padding-bottom:0}
+
+
+/* Images
+-------------------------------------------------- */
+.gallery{padding-bottom:5px;width:calc(50vw - 10px)}
+.gallery figure{overflow:hidden;background:black;margin:5px;float:left;position:relative;}
+.gallery .demo{width:calc(25vw - 15px - 18.816px - 1px);height:calc(17vw - 15px - 18.816px - 1px);display:block;background-size:cover;background-repeat:no-repeat;background-position: center center;}
+.gallery article{padding:0;width:100%}
+.gallery .num{margin-right:5px;font-family:'work sans';font-size:36.9667px;position:relative;top:5px;display:inline-block;float:left;-ms-font-feature-settings: "nalt";-o-font-feature-settings: "nalt";-webkit-font-feature-settings: "nalt";font-feature-settings: "nalt";}
+
+.gallery article:nth-child(1) figure:nth-child(2) .demo{width:calc(12vw - 15px - 18.816px - 1px);height:calc(17vw - 15px - 18.816px - 1px)}
+
+.gallery article:nth-child(4) figure:nth-child(5) .demo{width:calc(12vw - 15px - 18.816px - 1px);height:calc(17vw - 15px - 18.816px - 1px)}
+.gallery article:nth-child(4) figure:nth-child(10) .demo{width:calc(12vw - 15px - 18.816px - 1px);height:calc(17vw - 15px - 18.816px - 1px)}
+
+.gallery article:nth-child(6) figure:nth-child(2) .demo{width:calc(12vw - 15px - 18.816px - 1px);height:calc(17vw - 15px - 18.816px - 1px)}
+.gallery article:nth-child(6) figure:nth-child(5) .demo{width:calc(12vw - 15px - 18.816px - 1px);height:calc(17vw - 15px - 18.816px - 1px)}
+
+
+  .state p+p{text-indent:43.633px}
+  .col1 .scroll .gallery {display:block;width:100%;}
+  .col1 {border-right:0}
+  .bio article div:nth-child(odd){padding-right:0}
+  .bio article div:nth-child(even){padding-left:0}
+  .bio article div{width:100%}
+  .legende article{width:100%}
+  .logos ul {width:calc(100vw - 20px)}
+
+
+  /* legende
+  -------------------------------------------------- */
+  .legende header{padding:1em 0}
+  .legende article{width:50%;float:left;font-size:1em;line-height:1em}
+  .legende article div{padding-bottom:1em;display:table}
+  .legende article a{color:grey}
+  .legende article a:hover{color:black}
+  .legende article h3 {text-transform:uppercase;float:left;display:inline-block;-ms-font-feature-settings: "c2sc";-o-font-feature-settings: "c2sc";-webkit-font-feature-settings: "c2sc";font-feature-settings: "c2sc";}
+  .legende article div .texte {display:table-cell;vertical-align:top}
+  .legende article ul{counter-reset: foo;display: table;}
+  .legende article ul > li{list-style:none;counter-increment: foo;display: table-row;}
+  .legende article ul > li:before{width:33.633px;text-align:left;padding-right:10px;content: "fig." counter(foo, decimal);display: table-cell;}
+  .legende article ol{counter-reset: foo2;display: table;}
+  .legende article ol > li{list-style:none;counter-increment: foo2;display: table-row;}
+  .legende article ol > li:before{width:33.633px;text-align:left;padding-right:10px;content: "obj." counter(foo2, decimal);display: table-cell;}
+
+
+  /* legende
+  -------------------------------------------------- */
+  .bio article div{width:50%;float:left;font-size:1em;line-height:1em}
+  .bio article div:nth-child(odd){padding-right:5px}
+  .bio article div:nth-child(even){padding-left:5px}
+  .bio article div{padding-bottom:5px}
+  .bio article div a{margin-bottom:16px;margin-bottom:16px;margin-bottom:16px;margin-bottom:16px;margin-bottom:1rem;float:left;width:100%;color:grey}
+  .bio article div a:hover{color:black}
+  .bio article div h3{text-transform:uppercase;-ms-font-feature-settings: "c2sc";-o-font-feature-settings: "c2sc";-webkit-font-feature-settings: "c2sc";font-feature-settings: "c2sc";}
+  .bio article div p+p{text-indent:43.633px}
+
+
+
+
+/* mediaQueries
+@media only screen and (min-width:1683px){
+    body, html{font-size:24pt;line-height:26pt;}
+}
+@media only screen and (min-width:1443px){
+    body, html{font-size:22pt;line-height:24pt;}
+}
+@media only screen and (max-width:1024px){
+    .bio article div:nth-child(odd){padding-right:0}
+    .bio article div:nth-child(even){padding-left:0}
+    .legende article{width:100%}
+    .bio article div{width:100%}
+}
+@media only screen and (max-width:900px){
+    .languages{position:absolute;left:calc(100vw - 65px);top:10px;}
+    .col1 header h1{margin-left:0}
+    body, html{overflow-x: hidden;}
+    header h1, header h2{border-bottom:0;margin-right:43.633px;display:inline;border-bottom:3px solid;}
+    header{padding:0 43.633px;}
+    main{width:100%;border:0;overflow: auto;overflow-x: hidden;position:static;width:100%;height:auto;padding:5px;}
+    main.col2, main.col2 .scroll, main.col2 figure {display:none;border:2px solid}
+    main .scroll {padding:0;position: static;width:100%;height:auto;overflow: auto;overflow-x: hidden;}
+    .state p+p{text-indent:43.633px}
+    .col1 .scroll .gallery {display:block;width:100%;}
+    .col1 {border-right:0}
+    .bio article div:nth-child(odd){padding-right:0}
+    .bio article div:nth-child(even){padding-left:0}
+    .bio article div{width:100%}
+    .legende article{width:100%}
+    .logos ul {width:calc(100vw - 20px)}
+}
+@media only screen and (max-width:420px){
+    .languages{position:absolute;left:auto;right:10px;top:8px;}
+    .languages #fr a:after {font-size:1em}
+    .languages #en a:after {font-size:1em}
+    .state, .col1 h1, .col1 h2{font-size:.7em;line-height:1em}
+    .legende h2, .bio h3{font-size:1em;line-height:1em}
+    .logos ul li{width:33.333%;}
+}
+*/
+p {
+  text-indent:43.633px
+}
+
+
+body {
+
+  font-family: 'Work Sans', sans-serif;
+
+}
