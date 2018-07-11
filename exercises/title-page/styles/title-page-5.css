@@ -1,4 +1,64 @@
-
 body {
-  background: purple;
-}
+      font-family: helvetica, arial, sans-serif;
+      letter-spacing:2px;      }
+
+
+#line_height {
+        content: " ";
+        display: block;
+        margin: -8px;
+      }
+
+.container {
+        width: 800px;
+        text-align: center;
+        margin-top: 10%;
+        margin-left: 10%;
+            }
+#author {
+        font-weight: lighter;
+        text-align: left;
+        margin-left: 330px;
+
+        }
+
+#title {
+        font-weight: bold;
+        font-size: 2em;
+        }
+
+#subtitle {
+        text-align: left;
+        margin-left: 330px;
+        font-weight: lighter;
+        font-size: 1.1em;
+        }
+
+#publisher1{
+        font-family: serif;
+        font-weight: lighter;
+        font-size: 0.5em;
+        margin-left: 680px;
+
+        }
+
+#publisher2{
+        font-family: serif;
+        font-weight: lighter;
+        font-size: 0.5em;
+        margin-left: 555px;
+        }
+
+
+#publisher3{
+        font-family: serif; 
+          font-weight: lighter;
+          font-size: 0.5em;
+          margin-left: 690px;
+          }
+
+
+  #logo {
+        text-align: right;
+        margin-right: 50px;
+        }

@@ -1,4 +1,25 @@
+/* Theme Name: Suzuki
+   Author: Andrew Bowles Author
+   URI: http://www.andrewbowles.com */
 
-body {
-  background: pink;
-}
+
+/* ----------------------- STRUCTURE ------------------------*/
+* {margin: 0; padding:0;}
+html {height:100%; margin-bottom: 1px;}
+body {height:100%; margin:0; padding:0; }
+/
+/* ----------------------- TYPOGRAPHY ------------------------*/
+
+body {font-family:arial, sans-serif; font-weight:500; text-align:justify }
+li {font-size:32px; color:#000; margin-bottom:5px; letter-spacing: -4px;}
+ul {margin-left: 40px; margin-top: 20px;}
+
+/* hover */
+a {color:#000; text-decoration:none;}
+a:hover, input#submit:hover, input#searchsubmit:hover  {color:#000}
+a:focus {outline:none}
+ul li, ol li, li a {font-family:helvetica, arial, sans-serif; color:#000; }
+
+.char1, .char3, .char5, .char7, .char9, .char11, .char13, .char15, .char17{color:#FF0000}
+a:hover, a:hover span {color:#FFF}
+.active span, .active:hover span {color:#000}
